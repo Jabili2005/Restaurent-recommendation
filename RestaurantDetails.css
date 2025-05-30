@@ -1,0 +1,35 @@
+.restaurant-details-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  .restaurant-details-container h2 {
+    margin-bottom: 15px;
+    color: #e44d26; 
+  }
+  .restaurant-details-container img {
+    width: 75%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+  .details-info {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .details-info p {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  .details-info strong {
+    font-weight: bold;
+    color: #555;
+    margin-right: 5px;
+  }
+  @media (max-width: 600px) {
+    .restaurant-details-container img {
+      max-width: 100%;
+    }
+  }

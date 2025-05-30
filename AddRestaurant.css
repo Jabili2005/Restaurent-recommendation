@@ -1,0 +1,46 @@
+.add-restaurant-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px; 
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .add-restaurant-form label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .add-restaurant-form input,
+  .add-restaurant-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em; 
+  }
+  .add-restaurant-form textarea {
+    resize: vertical; 
+    min-height: 100px; 
+  }
+  .add-restaurant-form button {
+    padding: 12px 20px; 
+    background-color: #e44d26; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1em;
+    transition: background-color 0.3s ease; 
+  }
+  .add-restaurant-form button:hover {
+    background-color: #d14521;
+  }
+  @media (max-width: 600px) {
+    .add-restaurant-form {
+      max-width: 95%;
+      padding: 15px;
+    }
+  }
